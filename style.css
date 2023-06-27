@@ -46,8 +46,8 @@ body .container .button {
 
 .button {
   --background: #275efe;
-  --rectangle: #184fee;
-  --success: #4672f1;
+  --rectangle: #1e398a;
+  --success: #050e2a;
   --text: #fff;
   --arrow: #fff;
   --checkmark: #fff;
@@ -55,7 +55,7 @@ body .container .button {
   display: flex;
   overflow: hidden;
   text-decoration: none;
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-mask-image: -webkit-radial-gradient(rgb(239, 228, 228), black);
   background: var(--background);
   border-radius: 8px;
   box-shadow: 0 2px 8px -1px var(--shadow);
